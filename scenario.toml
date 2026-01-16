@@ -9,7 +9,7 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
 benchmark_path = "assets/benchmark_challenges_diverse_v1.json"
-limit_challenges = 4
+limit_challenges = 3
 repetitions = 1
 max_turns = 15
 timeout_s_per_turn = 300
