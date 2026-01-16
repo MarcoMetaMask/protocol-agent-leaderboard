@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/marcometamask/protocol-green-agent@sha256:2911e83cbf00a2b405a66d96c839e8ce8c2d5fa83742f461a1324482e862cad9",
+    "agent": "ghcr.io/marcometamask/protocol-purple-agent@sha256:57e2cd646290d3aac382d34ae16ce4ac2ea542da2b80ff514931677d62e2ccf2",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-16T03:17:34Z",
+  "github_actions": {
+    "run_url": "https://github.com/MarcoMetaMask/protocol-agent-leaderboard/actions/runs/21054337648",
+    "run_logs_url": "https://api.github.com/repos/MarcoMetaMask/protocol-agent-leaderboard/actions/runs/21054337648/logs",
+    "ref": "refs/heads/assessment-1",
+    "sha": "40bf14e89f73181138e97420510dbaec7813a8ed",
+    "repository_url": "https://github.com/MarcoMetaMask/protocol-agent-leaderboard",
+    "workflow_ref": "MarcoMetaMask/protocol-agent-leaderboard/.github/workflows/run-scenario.yml@refs/heads/assessment-1",
+    "workflow_sha": "40bf14e89f73181138e97420510dbaec7813a8ed"
+  }
+}
