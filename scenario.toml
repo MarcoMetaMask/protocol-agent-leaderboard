@@ -1,14 +1,14 @@
 [green_agent]
 agentbeats_id = "019bc4a2-afb7-7f73-8da6-364809217158"
-name = "Protocol Agent (Green)"
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = "019bc4a3-7e25-7fb1-9395-e08ebda82f7f"
-name = "Protocol Agent (Purple)"
+name = "agent"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
+benchmark_path = "assets/benchmark_challenges_diverse_v1.json"
 limit_challenges = 4
 repetitions = 1
 max_turns = 15
