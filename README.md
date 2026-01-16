@@ -121,9 +121,3 @@ Repeat the same process on a new branch `assessment-2`, changing **one** config 
 - `limit_challenges = 4` (keep everything else fixed)
 
 This gives two reproducible submissions with different difficulty/cost footprints.
-
----
-
-### Local testing (optional)
-
-You can smoke-test locally (before submitting) using the compose generator:
