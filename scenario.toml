@@ -1,16 +1,16 @@
 [green_agent]
-agentbeats_id = ""
+agentbeats_id = "019bc4a2-afb7-7f73-8da6-364809217158"
+name = "Protocol Agent (Green)"
 env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019bc4a3-7e25-7fb1-9395-e08ebda82f7f"
+name = "Protocol Agent (Purple)"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
-# Add your assessment config here
+limit_challenges = 4
+repetitions = 1
+max_turns = 15
+timeout_s_per_turn = 300
+include_transcripts = true
